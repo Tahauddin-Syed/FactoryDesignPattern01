@@ -43,7 +43,7 @@ public class SamsungGalaxyM30 implements SamsungGalaxySeries {
 
     @Override
     public Boolean labelBrand() {
-        System.out.println("Marking Branch:: Galaxy M30");
+        System.out.println("Marking Brand..:: Galaxy M30");
         return Boolean.TRUE;
     }
 

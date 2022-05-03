@@ -8,6 +8,7 @@ public interface PhoneModelNames extends AllConstants {
     String GALAXY_M30 = "M30";
     String GALAXY_M50 = "M50";
     String GALAXY_M20 = "M20";
+    String NOTE_10 = "Note10";
 
 
 }

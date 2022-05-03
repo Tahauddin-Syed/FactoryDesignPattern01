@@ -1,8 +1,14 @@
 package com.tahauddin.syed.tv.core;
 
-public class SamsungLCDTV extends SamsungTV{
+import com.tahauddin.syed.core.Samsung;
 
-    public SamsungLCDTV() {
-        System.out.println("Samsung LCD TV Series :: ");
-    }
+public interface SamsungLCDTV extends Samsung {
+
+
+    Boolean getParts();
+    Boolean assembleProduct();
+    Boolean getAccessories();
+    Boolean labelBrand();
+    Boolean packProduct();
+
 }

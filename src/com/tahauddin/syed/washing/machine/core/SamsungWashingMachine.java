@@ -18,4 +18,6 @@ public class SamsungWashingMachine implements Samsung {
     public Samsung getSamsungProduct(String name) {
         return null;
     }
+
+
 }

@@ -1,8 +1,14 @@
 package com.tahauddin.syed.phone.core;
 
-public class SamsungGalaxySeries extends SamsungPhone{
+import com.tahauddin.syed.core.Samsung;
 
-    public SamsungGalaxySeries() {
-        System.out.println("Samsung Galaxy Series Phones :: ");
-    }
+public interface SamsungGalaxySeries extends Samsung {
+
+    Boolean getParts();
+    Boolean assembleProduct();
+    Boolean getAccessories();
+    Boolean labelBrand();
+    Boolean packProduct();
+
+
 }

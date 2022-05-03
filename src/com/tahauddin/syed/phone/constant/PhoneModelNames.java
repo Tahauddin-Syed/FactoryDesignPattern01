@@ -4,10 +4,10 @@ import com.tahauddin.syed.core.AllConstants;
 
 public interface PhoneModelNames extends AllConstants {
 
-    String GalaxyM15 = "M15";
-    String GalaxyM30 = "M30";
-    String GalaxyM50 = "M50";
-    String GalaxyM20 = "M20";
+    String GALAXY_M15 = "M15";
+    String GALAXY_M30 = "M30";
+    String GALAXY_M50 = "M50";
+    String GALAXY_M20 = "M20";
 
 
 }

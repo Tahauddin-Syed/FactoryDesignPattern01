@@ -4,13 +4,14 @@ import com.tahauddin.syed.core.Samsung;
 import com.tahauddin.syed.phone.galaxy.SamsungGalaxyM15;
 import com.tahauddin.syed.phone.galaxy.SamsungGalaxyM30;
 import com.tahauddin.syed.phone.galaxy.SamsungGalaxyM50;
-import com.tahauddin.syed.phone.galaxy.SamsungGalsxyM20;
+import com.tahauddin.syed.phone.galaxy.SamsungGalaxyM20;
 
 public class SamsungPhone implements Samsung {
 
     private static SamsungPhone INSTANCE = new SamsungPhone();
 
     protected SamsungPhone(){
+
         System.out.println("0 Param Constructor :: Samsung Phone");
     }
 
@@ -18,21 +19,22 @@ public class SamsungPhone implements Samsung {
         return INSTANCE;
     }
 
-
-    public SamsungPhone getSamsungProduct(String name){
+    public Samsung getSamsungProduct(String name){
+        Samsung samsungPhone;
         if(name.equalsIgnoreCase("M15")){
-            return new SamsungGalaxyM15();
+            samsungPhone = new SamsungGalaxyM15();
+            return samsungPhone;
         } else if(name.equalsIgnoreCase("M30")){
-            return new SamsungGalaxyM30();
+             samsungPhone = new SamsungGalaxyM30();
+             return samsungPhone;
         } else if(name.equalsIgnoreCase("M50")){
-            return new SamsungGalaxyM50();
+             samsungPhone = new SamsungGalaxyM50();
+            return samsungPhone;
         } else if(name.equalsIgnoreCase("M20")){
-            return new SamsungGalsxyM20();
-        }
-        else {
+            samsungPhone = new SamsungGalaxyM20();
+            return samsungPhone;
+        } else {
             throw new IllegalArgumentException("Samsung Phone Not Found!!");
         }
     }
-
-
 }

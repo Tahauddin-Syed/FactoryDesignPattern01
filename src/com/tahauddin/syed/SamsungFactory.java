@@ -4,11 +4,11 @@ public abstract class SamsungFactory {
 
     public static Samsung getSamsungObject(String name){
         if(name.equalsIgnoreCase("SamsungPhone")){
-            return new SamsungPhone();
+            return SamsungPhone.getInstance();
         } else if(name.equalsIgnoreCase("SamsungTV")){
-            return new SamsungTV();
+            return SamsungTV.getInstance();
         } else if(name.equalsIgnoreCase("SamsungWashingMachine")){
-            return new SamsungWashingMachine();
+            return SamsungWashingMachine.getInstance();
         }
         else {
             throw new IllegalArgumentException("Object Not Found!!");

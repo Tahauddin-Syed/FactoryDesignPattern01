@@ -1,5 +1,8 @@
 package com.tahauddin.syed;
 
+import com.tahauddin.syed.core.Samsung;
+import com.tahauddin.syed.factory.SamsungFactory;
+
 public class App {
 
     public static void main(String[] args) {

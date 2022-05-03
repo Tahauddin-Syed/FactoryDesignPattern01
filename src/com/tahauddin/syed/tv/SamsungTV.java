@@ -1,6 +1,9 @@
-package com.tahauddin.syed;
+package com.tahauddin.syed.tv;
 
-public class SamsungTV implements Samsung{
+
+import com.tahauddin.syed.core.Samsung;
+
+public class SamsungTV implements Samsung {
 
     private static Samsung INSTANCE = new SamsungTV();
 

@@ -1,4 +1,9 @@
-package com.tahauddin.syed;
+package com.tahauddin.syed.factory;
+
+import com.tahauddin.syed.core.Samsung;
+import com.tahauddin.syed.phone.SamsungPhone;
+import com.tahauddin.syed.tv.SamsungTV;
+import com.tahauddin.syed.washing.machine.SamsungWashingMachine;
 
 public abstract class SamsungFactory {
 

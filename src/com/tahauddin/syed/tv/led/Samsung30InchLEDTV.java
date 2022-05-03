@@ -1,9 +1,10 @@
 package com.tahauddin.syed.tv.led;
 
 import com.tahauddin.syed.core.Samsung;
+import com.tahauddin.syed.core.SamsungCreateTemplateImpl;
 import com.tahauddin.syed.tv.core.SamsungLEDTV;
 
-public class Samsung30InchLEDTV implements SamsungLEDTV {
+public class Samsung30InchLEDTV extends SamsungCreateTemplateImpl implements SamsungLEDTV {
 
     public Samsung30InchLEDTV() {
         System.out.println("Samsung LED TV 30 Inches :: Object Created");
@@ -12,15 +13,6 @@ public class Samsung30InchLEDTV implements SamsungLEDTV {
     @Override
     public Samsung getSamsungProduct(String name) {
         return this;
-    }
-
-    public final void createPhone(){
-        getParts();
-        assembleProduct();
-        getAccessories();
-        labelBrand();
-        packProduct();
-        System.out.println("Phone Created :: " + this);
     }
 
     @Override
@@ -44,7 +36,7 @@ public class Samsung30InchLEDTV implements SamsungLEDTV {
     @Override
     public Boolean labelBrand() {
         System.out.println("Getting Parts..:: Samsung 30 Inches LED TV");
-        return Boolean.TRUE;
+        return Boolean.FALSE;
     }
 
     @Override

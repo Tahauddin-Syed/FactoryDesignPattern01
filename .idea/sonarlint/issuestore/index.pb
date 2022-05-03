@@ -1,3 +1,23 @@
 
 9
 	app01.iml,f\2\f2b2e2d11e89172f656cb94763dcdb87c745e683
+b
+2src/com/tahauddin/syed/factory/SamsungFactory.java,0\c\0c0f337ba41a1460cf9c7d561f63b68c624ac8e9
+d
+4src/com/tahauddin/syed/tv/constant/TVModelNames.java,e\9\e9d104befa6faaab8fc956bef7541ad5b3d7f1b9
+j
+:src/com/tahauddin/syed/phone/constant/PhoneModelNames.java,b\a\ba73c741c3e395800ec7a48f1b4d541a66677344
+`
+0src/com/tahauddin/syed/tv/core/SamsungLEDTV.java,7\1\7182e08662c06d999eec4e47930e7e92d529dfce
+c
+3src/com/tahauddin/syed/phone/core/SamsungPhone.java,6\b\6b3caae599924f025d73a565e0342679dc8969af
+]
+-src/com/tahauddin/syed/core/AllConstants.java,d\e\de87b0df17d7a8fb9c1aba9afb20e8a0ee27934b
+X
+(src/com/tahauddin/syed/core/Samsung.java,8\b\8b2ef7f80582bf2a8925939cbcb7a1f4fe9d9e65
+`
+0src/com/tahauddin/syed/tv/core/SamsungLCDTV.java,9\c\9c008be0f91f04a6943e99858c52cc0029993583
+]
+-src/com/tahauddin/syed/tv/core/SamsungTV.java,6\5\65ba86f8b448a3d3779537467c6a8adf1e5759e3
+v
+Fsrc/com/tahauddin/syed/washing/machine/core/SamsungWashingMachine.java,b\4\b49e219c10bb283f798c5b8c5b633d3388ab735a

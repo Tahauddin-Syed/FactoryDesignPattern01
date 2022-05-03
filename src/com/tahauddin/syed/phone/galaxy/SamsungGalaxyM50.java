@@ -1,9 +1,10 @@
 package com.tahauddin.syed.phone.galaxy;
 
 import com.tahauddin.syed.core.Samsung;
+import com.tahauddin.syed.core.SamsungCreateTemplateImpl;
 import com.tahauddin.syed.phone.core.SamsungGalaxySeries;
 
-public class SamsungGalaxyM50 implements SamsungGalaxySeries{
+public class SamsungGalaxyM50 extends SamsungCreateTemplateImpl implements SamsungGalaxySeries{
 
     public SamsungGalaxyM50() {
         System.out.println("Samsung Galaxy M50 Phone..Object Created!!");
@@ -12,15 +13,6 @@ public class SamsungGalaxyM50 implements SamsungGalaxySeries{
     @Override
     public Samsung getSamsungProduct(String name) {
         return this;
-    }
-
-    public final void createPhone(){
-        getParts();
-        assembleProduct();
-        getAccessories();
-        labelBrand();
-        packProduct();
-        System.out.println("Phone Created :: " + this);
     }
 
     @Override

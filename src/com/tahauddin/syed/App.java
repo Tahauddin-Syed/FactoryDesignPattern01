@@ -34,10 +34,13 @@ public class App {
 
 
         SamsungGalaxyM30 galaxyM30 = SamsungGalaxyM30.class.cast(samsungGalaxyM30);
-        galaxyM30.createPhone();
+        Boolean isGalaxyM30Created = galaxyM30.createPhone();
+        System.out.println("GalaxyM30 Created :: " + isGalaxyM30Created);
 
         Samsung samsungNote10Phone = samsungPhone.getSamsungProduct(NOTE_10);
         SamsungGalaxyNote10 samsungNote10 = SamsungGalaxyNote10.class.cast(samsungNote10Phone);
-        samsungNote10.createPhone();
+        Boolean isSamsungNote10Created = samsungNote10.createPhone();
+        System.out.println("SamsungNote10Created Created :: " + isSamsungNote10Created);
+
     }
 }

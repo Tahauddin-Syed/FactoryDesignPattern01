@@ -1,22 +1,21 @@
 package com.tahauddin.syed.phone.note;
 
 import com.tahauddin.syed.core.Samsung;
+import com.tahauddin.syed.core.SamsungCreateTemplateImpl;
 import com.tahauddin.syed.phone.core.SamsungGalaxySeries;
 
-public class SamsungGalaxyNote10 implements SamsungGalaxySeries {
+public class SamsungGalaxyNote10 extends SamsungCreateTemplateImpl implements SamsungGalaxySeries {
 
-    public final void createPhone(){
-        getParts();
-        assembleProduct();
-        getAccessories();
-        labelBrand();
-        packProduct();
-        System.out.println("Phone Created :: " + this);
+    public SamsungGalaxyNote10(){
+        if(!createPhone()){
+            System.out.println("Could Not Create Note 10 Phone");
+            throw new IllegalArgumentException("Some Parametor Missing");
+        }
     }
-
 
     @Override
     public Samsung getSamsungProduct(String name) {
+
         return this;
     }
 
@@ -41,7 +40,7 @@ public class SamsungGalaxyNote10 implements SamsungGalaxySeries {
     @Override
     public Boolean labelBrand() {
         System.out.println("Marking Brand....:: Note 10");
-        return Boolean.TRUE;
+        return Boolean.FALSE;
     }
 
     @Override

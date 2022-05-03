@@ -1,9 +1,10 @@
 package com.tahauddin.syed.tv.led;
 
 import com.tahauddin.syed.core.Samsung;
+import com.tahauddin.syed.core.SamsungCreateTemplateImpl;
 import com.tahauddin.syed.tv.core.SamsungLEDTV;
 
-public class Samsung45InchLEDTV implements SamsungLEDTV  {
+public class Samsung45InchLEDTV extends SamsungCreateTemplateImpl implements SamsungLEDTV  {
 
     public Samsung45InchLEDTV() {
         System.out.println("Samsung LED TV 45 Inches");
@@ -14,14 +15,6 @@ public class Samsung45InchLEDTV implements SamsungLEDTV  {
         return this;
     }
 
-    public final void createPhone(){
-        getParts();
-        assembleProduct();
-        getAccessories();
-        labelBrand();
-        packProduct();
-        System.out.println("Phone Created :: " + this);
-    }
 
     @Override
     public Boolean getParts() {

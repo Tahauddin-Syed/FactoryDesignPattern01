@@ -16,8 +16,7 @@ public class App {
         Samsung samsungWM = SamsungFactory.getSamsungObject("SamsungWashingMachine");
         System.out.println(samsungWM.getClass().getName());
 
-        Samsung otherObject = SamsungFactory.getSamsungObject("samsung");
-        System.out.println(otherObject.getClass().getName());
-
+        Samsung samsungGalaxyM30 = samsungPhone.getSamsungProduct("M30");
+        System.out.println(samsungGalaxyM30.getClass().getName());
     }
 }

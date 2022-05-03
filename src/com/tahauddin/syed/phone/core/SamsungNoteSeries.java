@@ -1,4 +1,4 @@
-package com.tahauddin.syed.phone;
+package com.tahauddin.syed.phone.core;
 
 public class SamsungNoteSeries extends SamsungPhone{
 

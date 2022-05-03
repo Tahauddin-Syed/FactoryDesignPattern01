@@ -13,4 +13,9 @@ public class SamsungWashingMachine implements Samsung {
     public static Samsung getInstance() {
         return INSTANCE;
     }
+
+    @Override
+    public Samsung getSamsungProduct(String name) {
+        return null;
+    }
 }

@@ -5,8 +5,6 @@ import com.tahauddin.syed.phone.galaxy.SamsungGalaxyM15;
 import com.tahauddin.syed.phone.galaxy.SamsungGalaxyM30;
 import com.tahauddin.syed.phone.galaxy.SamsungGalaxyM50;
 import com.tahauddin.syed.phone.galaxy.SamsungGalsxyM20;
-import com.tahauddin.syed.tv.SamsungTV;
-import com.tahauddin.syed.washing.machine.SamsungWashingMachine;
 
 public class SamsungPhone implements Samsung {
 

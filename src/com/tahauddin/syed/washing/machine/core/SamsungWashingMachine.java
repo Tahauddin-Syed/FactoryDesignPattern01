@@ -1,4 +1,4 @@
-package com.tahauddin.syed.washing.machine;
+package com.tahauddin.syed.washing.machine.core;
 
 import com.tahauddin.syed.core.Samsung;
 
